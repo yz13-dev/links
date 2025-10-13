@@ -16,7 +16,8 @@
     "secondary": {
       "label": "Видеозвонок",
       "url": "https://yz13.ru",
-      "icon": "Phone"
+      "icon": "Phone",
+      "disabled": false
     }
   },
   "items": [
