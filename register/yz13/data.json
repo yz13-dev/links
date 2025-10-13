@@ -9,7 +9,7 @@
   },
   "actions": {
     "primary": {
-      "label": "Перейти в чат",
+      "label": "Чат",
       "url": "https://t.me/yz13_dev",
       "icon": "ArrowRight"
     },
