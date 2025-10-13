@@ -15,10 +15,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup AWS CLI
+      - name: Install AWS CLI
         run: |
-          sudo apt-get update
-          sudo apt-get install -y awscli
+          pip install awscli
 
       - name: Upload configs to Yandex S3
         env:
