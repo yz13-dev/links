@@ -7,6 +7,13 @@
     "avatar_url": "/avatar.jpg",
     "description": "Фронтенд разработчик, специализируюсь на веб-разарботке"
   },
+  "actions": {
+    "primary": {
+      "label": "Перейти в чат",
+      "url": "https://yz13.ru",
+      "icon": "ArrowRight"
+    }
+  },
   "items": [
     {
       "url": "https://yz13.ru",
