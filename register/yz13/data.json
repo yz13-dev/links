@@ -10,8 +10,13 @@
   "actions": {
     "primary": {
       "label": "Перейти в чат",
-      "url": "https://yz13.ru",
+      "url": "https://t.me/yz13_dev",
       "icon": "ArrowRight"
+    },
+    "secondary": {
+      "label": "Видеозвонок",
+      "url": "https://yz13.ru",
+      "icon": "Phone"
     }
   },
   "items": [
