@@ -13,5 +13,9 @@
       "label": "Сайт-портфолио"
     }
   ],
-  "socials": []
+  "socials": {
+    "telegram": {
+      "url": "https://t.me/yz13_dev"
+    }
+  }
 }
