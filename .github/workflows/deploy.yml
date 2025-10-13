@@ -1,0 +1,36 @@
+name: Deploy JSON configs to Yandex S3
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'register/**' # запускаем только если изменились конфиги
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+
+      - name: Upload configs to Yandex S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YANDEX_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YANDEX_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ru-central1
+        run: |
+          aws s3 sync ./configs s3://links-store/register \
+            --endpoint-url=https://storage.yandexcloud.net \
+            --delete \
+            --acl public-read
+
+      - name: (Optional) Purge CDN cache
+        if: always()
+        run: echo "TODO: Добавь вызов API для очистки CDN, если нужно"
