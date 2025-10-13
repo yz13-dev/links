@@ -1,2 +1,2 @@
-# links
-Repositories for users links for link.yz13.ru service
+# Links
+Для добавления своих ссылок необходимо создать `Pull request` для `main` ветки и добавить `.json` файл с необходимыми данными.
