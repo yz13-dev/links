@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'register/**' # запускаем только если изменились конфиги
+      - "register/**" # запускаем только если изменились конфиги
 
 jobs:
   deploy:
@@ -31,6 +31,6 @@ jobs:
             --delete \
             --acl public-read
 
-      - name: (Optional) Purge CDN cache
-        if: always()
-        run: echo "TODO: Добавь вызов API для очистки CDN, если нужно"
+      # - name: (Optional) Purge CDN cache
+      # if: always()
+      # run: echo "TODO: Добавь вызов API для очистки CDN, если нужно"
