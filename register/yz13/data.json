@@ -16,7 +16,7 @@
     "secondary": {
       "type": "link",
       "label": "Сайт",
-      "url": "https://yz13.ru",
+      "value": "https://yz13.ru",
       "icon": "Globe"
     }
   },
