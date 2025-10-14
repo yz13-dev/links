@@ -8,15 +8,16 @@
   },
   "actions": {
     "primary": {
-      "label": "Чат",
-      "url": "https://t.me/yz13_dev",
+      "type": "link",
+      "label": "Связаться",
+      "value": "mailto:yz13.dev@gmail.com",
       "icon": "ArrowRight"
     },
     "secondary": {
-      "label": "Видеозвонок",
+      "type": "link",
+      "label": "Сайт",
       "url": "https://yz13.ru",
-      "icon": "Phone",
-      "disabled": true
+      "icon": "Globe"
     }
   },
   "items": [
