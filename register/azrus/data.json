@@ -5,7 +5,12 @@
     "avatar_url": "/avatar.jpg",
     "description": ""
   },
-  "items": [],
+  "items": [
+    {
+      "url": "https://t.me/azrus_1",
+      "label": "Телеграм канал"
+    }
+  ],
   "socials": {
     "telegram": {
       "url": "https://t.me/azrus1337"
