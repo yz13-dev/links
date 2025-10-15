@@ -1,43 +1,41 @@
 {
-  "json": {
-    "profession": "string | null | undefined",
-    "user": {
-      "fullname": "string | null | undefined",
-      "username": "string",
-      "avatar_url": "string | null",
+  "profession": "string | null | undefined",
+  "user": {
+    "fullname": "string | null | undefined",
+    "username": "string",
+    "avatar_url": "string | null",
+    "description": "string | null | undefined"
+  },
+  "items": [
+    {
+      "url": "string",
+      "label": "string",
+      "icon": "string | null | undefined",
       "description": "string | null | undefined"
+    }
+  ],
+  "socials": {
+    "telegram": "{ url: string } | undefined",
+    "x": "{ url: string } | undefined",
+    "github": "{ url: string } | undefined",
+    "facebook": "{ url: string } | undefined",
+    "instagram": "{ url: string } | undefined",
+    "youtube": "{ url: string } | undefined"
+  },
+  "actions": {
+    "primary": {
+      "label": "string",
+      "icon": "string | null | undefined",
+      "type": "\"link\" | \"copy\" | \"custom\"",
+      "value": "string",
+      "disabled": "boolean | undefined"
     },
-    "items": [
-      {
-        "url": "string",
-        "label": "string",
-        "icon": "string | null | undefined",
-        "description": "string | null | undefined"
-      }
-    ],
-    "socials": {
-      "telegram": "{ url: string } | undefined",
-      "x": "{ url: string } | undefined",
-      "github": "{ url: string } | undefined",
-      "facebook": "{ url: string } | undefined",
-      "instagram": "{ url: string } | undefined",
-      "youtube": "{ url: string } | undefined"
-    },
-    "actions": {
-      "primary": {
-        "label": "string",
-        "icon": "string | null | undefined",
-        "type": "\"link\" | \"copy\" | \"custom\"",
-        "value": "string",
-        "disabled": "boolean | undefined"
-      },
-      "secondary": {
-        "label": "string",
-        "icon": "string | null | undefined",
-        "type": "\"link\" | \"copy\" | \"custom\"",
-        "value": "string",
-        "disabled": "boolean | undefined"
-      }
+    "secondary": {
+      "label": "string",
+      "icon": "string | null | undefined",
+      "type": "\"link\" | \"copy\" | \"custom\"",
+      "value": "string",
+      "disabled": "boolean | undefined"
     }
   }
 }
