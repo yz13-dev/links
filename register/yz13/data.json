@@ -22,6 +22,11 @@
   },
   "items": [
     {
+      "url": "https://yz13.dev",
+      "label": "YZ13",
+      "description": "Сайт-портфолио"
+    },
+    {
       "url": "https://yz13.ru",
       "label": "yz13.ru",
       "description": "Хаб моих проектов"
