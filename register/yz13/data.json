@@ -22,25 +22,15 @@
   },
   "items": [
     {
-      "url": "https://yz13.dev",
-      "label": "YZ13",
-      "description": "Сайт-портфолио"
-    },
-    {
       "url": "https://yz13.ru",
       "label": "yz13.ru",
-      "description": "Хаб моих проектов"
+      "description": "Сайт-портфолио"
     },
     {
       "url": "https://yzlab.ru",
       "label": "yzlab.ru",
       "description": "Множество сайтов, ресурсов собранны для вас."
     },
-    {
-      "url": "https://yz13.link",
-      "label": "Link - Собери всё важное в одной ссылке",
-      "description": "Присоединись к создателям, которые объединяют всё в одной ссылке."
-    }
   ],
   "socials": {
     "telegram": {
